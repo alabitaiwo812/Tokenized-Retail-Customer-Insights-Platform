@@ -9,3 +9,5 @@ S
 #contracts/insight-monetization.clar,4/a/4a5678eaebf27c5b1ee9bb35ea3bec00a72fbc77
 R
 "contracts/preference-analysis.clar,7/8/78f68cc5491f2a9112914efde21cf81053c6de43
+S
+#contracts/transaction-tracking.clar,7/6/76233a3e6c7506f95e3065fccda4abc4ad2674d3
