@@ -1,30 +1,27 @@
+;; Preference Analysis Contract
+;; Identifies consumer interests
 
-;; title: preference-analysis
-;; version:
-;; summary:
-;; description:
+;; Map to store consumer preferences
+(define-map consumer-preferences principal
+  {
+    category: (string-ascii 50),
+    weight: uint,
+    last-updated: uint
+  }
+)
 
-;; traits
-;;
+;; Public function to update consumer preference
+(define-public (update-preference (category (string-ascii 50)) (weight uint))
+  (ok (map-set consumer-preferences tx-sender
+    {
+      category: category,
+      weight: weight,
+      last-updated: block-height
+    }
+  ))
+)
 
-;; token definitions
-;;
-
-;; constants
-;;
-
-;; data vars
-;;
-
-;; data maps
-;;
-
-;; public functions
-;;
-
-;; read only functions
-;;
-
-;; private functions
-;;
-
+;; Read-only function to get consumer preference
+(define-read-only (get-consumer-preference (consumer principal))
+  (map-get? consumer-preferences consumer)
+)

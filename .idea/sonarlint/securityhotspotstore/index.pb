@@ -7,3 +7,5 @@ P
  contracts/consumer-identity.clar,0/b/0b6d7a97250993d1ddc0697ec386c4f899018ff0
 S
 #contracts/insight-monetization.clar,4/a/4a5678eaebf27c5b1ee9bb35ea3bec00a72fbc77
+R
+"contracts/preference-analysis.clar,7/8/78f68cc5491f2a9112914efde21cf81053c6de43
