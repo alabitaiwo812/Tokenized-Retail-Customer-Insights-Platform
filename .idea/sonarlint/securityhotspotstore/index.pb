@@ -5,3 +5,5 @@ R
 "contracts/retail-verification.clar,d/a/da2dc7a9c57d2346881f74b36db79f14de312ad0
 P
  contracts/consumer-identity.clar,0/b/0b6d7a97250993d1ddc0697ec386c4f899018ff0
+S
+#contracts/insight-monetization.clar,4/a/4a5678eaebf27c5b1ee9bb35ea3bec00a72fbc77

@@ -10,8 +10,23 @@ path = 'contracts/consumer-identity.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.insight-monetization]
+path = 'contracts/insight-monetization.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.preference-analysis]
+path = 'contracts/preference-analysis.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.retail-verification]
 path = 'contracts/retail-verification.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.transaction-tracking]
+path = 'contracts/transaction-tracking.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
