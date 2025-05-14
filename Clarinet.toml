@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.consumer-identity]
+path = 'contracts/consumer-identity.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.retail-verification]
 path = 'contracts/retail-verification.clar'
 clarity_version = 2
